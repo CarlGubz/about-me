@@ -1,0 +1,113 @@
+body{margin-top: 150px; }
+
+
+.navbar{
+		padding: auto ; 
+		text-align:center ; }
+hr{width: 30% ;
+	height:4px ;
+	background: black}
+
+.websiteLogo {
+	display: block ; 
+	max-width:200px;
+    margin-right: 25px;
+	}
+
+	
+.nav-link .nav-item { 
+	font-size: 50px ;}
+		
+		
+
+.first-container{
+	/*margin-top: 70px ;*/
+	margin-left: auto ;
+	margin-right: auto;
+	padding-left: 100px ;
+	padding-right: 100px ;}
+
+#webDev  {
+	font-family: 'Anton', sans-serif; }
+
+#learner{
+	font-family:'Pacifico', cursive; 
+}
+
+.first-mid-container{
+	font-size: 14px;
+	text-align: center ;
+	table-layout: fixed ; 
+	width:100% ;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 2px;
+	line-height: 2.0;
+	}
+
+
+		
+.profile-picture{
+	width:300px ;
+	height: 300px ; 
+	border:10px solid gray;
+	border-color:gray; 
+	border-radius: 50%;
+	display: block ;
+	margin-left: auto ;
+	margin-right: auto ;
+	border-radius: 4px solid gray;
+	}
+	
+	
+	
+.second-container{
+	text-align: center ;
+	margin-top: 80px ;
+	margin-right: auto;
+	margin-left: auto ;
+	font-size: 100px 
+}
+
+#skills{
+	
+	text-align:center ;
+	margin-top: 100px ; 
+	font-size: 50px;
+ }	
+#frontEnd{
+	text-align:center ; 
+	margin-bottom: 5px ;
+	margin-top: 40px ;
+	font-size: 30px;
+ }	
+#frontEndPic{
+	margin-bottom: 40px ;
+	width:500px ;
+ }
+ 
+ 
+.cms {margin-left: auto ;
+		margin-right: auto ; 
+		table-layout: fixed ; 
+		width:30% ;
+		font-size: 18px}
+ #wordpress{margin-bottom: 40px ;
+			width:150px ;}
+ 
+ #shopify{margin-bottom: 40px ;
+	width:150px;}
+#php {
+		margin-bottom: 40px ;
+	width:130px ;}
+
+#sql {margin-bottom: 40px ;
+	width:150px ;}
+	
+.third-container{
+	text-align:center ; 
+	margin-top: 80px ;
+}
+#udemy {margin-top: 0px ;
+	width:200px ;}
+	
+	
