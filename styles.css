@@ -1,17 +1,14 @@
-body{margin-top: 150px; }
+body{margin-top: 10px;
+	background-color: #1b262c ;
+	margin-right:200px;
+	margin-left:200px }
 
-
-.navbar{
-		padding: auto ; 
-		text-align:center ; }
-hr{width: 30% ;
-	height:4px ;
-	background: black}
+#hr{width: 100% ;
+	background: white}
 
 .websiteLogo {
 	display: block ; 
-	max-width:200px;
-    margin-right: 25px;
+	max-width:50px;
 	}
 
 	
@@ -19,30 +16,45 @@ hr{width: 30% ;
 	font-size: 50px ;}
 		
 		
+#webDev {
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		color:orange;
+		font-weight: bold;
+		text-align: center; }
+	
+#learner {font-family:Verdana, Geneva, Tahoma, sans-serif;
+		color: orange;
+		font-size: 40px;
+		text-align: center;
+		font-weight: bold; }
 
 .first-container{
-	/*margin-top: 70px ;*/
-	margin-left: auto ;
-	margin-right: auto;
-	padding-left: 100px ;
-	padding-right: 100px ;}
+	align-items: center;
+	text-align:justify;
+	margin-top: 70px ;
+	color: white ;
+	margin-right:50px;
+	margin-left:50px;
+	 }
 
-#webDev  {
-	font-family: 'Anton', sans-serif; }
-
-#learner{
-	font-family:'Pacifico', cursive; 
-}
-
-.first-mid-container{
-	font-size: 14px;
-	text-align: center ;
-	table-layout: fixed ; 
-	width:100% ;
+.first-paragraph, .second-paragraph{
 	font-family: 'Roboto', sans-serif;
-	letter-spacing: 2px;
+	text-align:justify;
+	font-size:15px;
 	line-height: 2.0;
-	}
+	letter-spacing: 2px; 
+	margin-top:50px;}
+
+
+
+.first-first-container{
+	margin-top:100px;
+	font-size: 14px ;
+	line-height: 2.0;
+	color: white ;
+	margin-right:50px;
+	margin-left:50px	
+}
 
 
 		
@@ -53,8 +65,8 @@ hr{width: 30% ;
 	border-color:gray; 
 	border-radius: 50%;
 	display: block ;
-	margin-left: auto ;
-	margin-right: auto ;
+	margin-right:50px;
+	margin-left:50px;
 	border-radius: 4px solid gray;
 	}
 	
@@ -63,17 +75,31 @@ hr{width: 30% ;
 .second-container{
 	text-align: center ;
 	margin-top: 80px ;
-	margin-right: auto;
-	margin-left: auto ;
-	font-size: 100px 
+	font-size: 100px;
+	color: white  ;
+	margin-right:50px;
+	margin-left:50px;
 }
 
 #skills{
-	
 	text-align:center ;
 	margin-top: 100px ; 
 	font-size: 50px;
- }	
+	color:orange;
+	font-weight: bold;
+ }
+ 
+#allSkills{
+	width:100%;
+	padding:30px ;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size:20px;
+	font-family: 'Roboto', sans-serif ;
+	font-weight: bold;
+
+}
 #frontEnd{
 	text-align:center ; 
 	margin-bottom: 5px ;
@@ -86,28 +112,8 @@ hr{width: 30% ;
  }
  
  
-.cms {margin-left: auto ;
-		margin-right: auto ; 
-		table-layout: fixed ; 
-		width:30% ;
-		font-size: 18px}
- #wordpress{margin-bottom: 40px ;
-			width:150px ;}
- 
- #shopify{margin-bottom: 40px ;
-	width:150px;}
-#php {
-		margin-bottom: 40px ;
-	width:130px ;}
-
-#sql {margin-bottom: 40px ;
-	width:150px ;}
-	
-.third-container{
-	text-align:center ; 
-	margin-top: 80px ;
-}
-#udemy {margin-top: 0px ;
-	width:200px ;}
+ #skills-content{
+	 font-weight: normal;
+ }
 	
 	
