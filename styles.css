@@ -1,3 +1,5 @@
+
+
 body{margin-top: 10px;
 	background-color: #1b262c ;
 	margin-right:200px;
@@ -115,5 +117,42 @@ body{margin-top: 10px;
  #skills-content{
 	 font-weight: normal;
  }
+
+ #footer{
+	margin-top:100px;
+	margin-bottom:50px;
+	font-family: 'Roboto', sans-serif ;
+	font-size:15px;
+	font-weight:bold;
 	
-	
+ }
+
+/*PC*/
+@media(max-width:1281px){
+	body{
+		margin-left: 200px;
+		margin-right: 200px;
+	}
+
+/*Mobile*/
+@media (min-width:320px){
+	body {
+		margin-left:10px;
+		margin-right:10px
+	}
+	#webDev, #learner, #skills{
+		font-size:30px
+	}
+	#allSkills{
+		font-size:20px
+	}
+	.navbar-brand{
+		display:block ;
+		position: relative;
+		left:50% ;
+		
+	}
+ }
+
+
+}
