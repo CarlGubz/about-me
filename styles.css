@@ -1,6 +1,6 @@
 
 
-body{margin-top: 10px;
+body{
 	background-color: #1b262c ;
 	margin-right:200px;
 	margin-left:200px }
@@ -16,80 +16,49 @@ body{margin-top: 10px;
 	
 .nav-link .nav-item { 
 	font-size: 50px ;}
-		
-		
+
+/******HI! Im Carlos******/						
 #webDev {
 		font-family: Verdana, Geneva, Tahoma, sans-serif;
 		color:orange;
 		font-weight: bold;
 		text-align: center; }
 	
-#learner {font-family:Verdana, Geneva, Tahoma, sans-serif;
+#learner, #education,#projects, #skills {font-family:Verdana, Geneva, Tahoma, sans-serif;
 		color: orange;
 		font-size: 40px;
 		text-align: center;
 		font-weight: bold; }
 
-.first-container{
+.first-container, #ed, #div-projects, .second-container{
 	align-items: center;
 	text-align:justify;
-	margin-top: 70px ;
+	margin-top: 80px ;
 	color: white ;
 	margin-right:50px;
 	margin-left:50px;
 	 }
 
-.first-paragraph, .second-paragraph{
+.first-paragraph, .first-first-paragraph, .second-paragraph, .ed-parag {
 	font-family: 'Roboto', sans-serif;
 	text-align:justify;
-	font-size:15px;
+	font-size:20px;
 	line-height: 2.0;
 	letter-spacing: 2px; 
-	margin-top:50px;}
+	margin-top:20px;}
 
 
 
 .first-first-container{
-	margin-top:100px;
-	font-size: 14px ;
+	margin-top:130px;
+	font-size: 15px ;
 	line-height: 2.0;
 	color: white ;
 	margin-right:50px;
 	margin-left:50px	
 }
 
-
-		
-.profile-picture{
-	width:300px ;
-	height: 300px ; 
-	border:10px solid gray;
-	border-color:gray; 
-	border-radius: 50%;
-	display: block ;
-	margin-right:50px;
-	margin-left:50px;
-	border-radius: 4px solid gray;
-	}
-	
-	
-	
-.second-container{
-	text-align: center ;
-	margin-top: 80px ;
-	font-size: 100px;
-	color: white  ;
-	margin-right:50px;
-	margin-left:50px;
-}
-
-#skills{
-	text-align:center ;
-	margin-top: 100px ; 
-	font-size: 50px;
-	color:orange;
-	font-weight: bold;
- }
+/******Skills************/
  
 #allSkills{
 	width:100%;
@@ -118,14 +87,36 @@ body{margin-top: 10px;
 	 font-weight: normal;
  }
 
- #footer{
+ /*********Education*************/
+ h2{
+	font-size: 30px;
+}
+
+ /*********FOoter****/
+ footer{
+	display:block ;
+	position:absolute ;
+	left:0 ;
+	right: 0 ;
+	background-color: orange;
+	width:100% ;
+	text-align: center;
+	padding:10px ;
 	margin-top:100px;
-	margin-bottom:50px;
 	font-family: 'Roboto', sans-serif ;
 	font-size:15px;
 	font-weight:bold;
-	
  }
+
+ #fb, #github, #ig, #twitter {
+	padding-top:20px ; 
+	width:3%
+ }
+
+ .footer{
+	color:black;
+	margin-top:20px; }
+	
 
 /*PC*/
 @media(max-width:1281px){
@@ -137,22 +128,117 @@ body{margin-top: 10px;
 /*Mobile*/
 @media (min-width:320px){
 	body {
-		margin-left:10px;
-		margin-right:10px
-	}
-	#webDev, #learner, #skills{
-		font-size:30px
-	}
-	#allSkills{
-		font-size:20px
-	}
+		margin:3px;}
+
 	.navbar-brand{
 		display:block ;
 		position: relative;
 		left:50% ;
+	
+	
+	}#hr{width: 100% ;
+		background: white}
+	
+	.websiteLogo {
+		display: block ; 
+		max-width:70px;
+		}
+	
 		
+	.nav-link .nav-item { 
+		font-size: 50px ;}
+			
+	/******HI! Im Carlos******/		
+	
+	#webDev, #learner, #skills, #education{
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	color: orange;
+	font-size:20px;
+	text-align: center;
+	font-weight: bold; }
+
+
+	.first-container, #ed, .second-container{
+		align-items: center;
+		text-align:justify;
+		margin-top: 50px ;
+		color: white ;
+		 }
+	
+	.first-paragraph, .second-paragraph, .ed-parag {
+		font-family: 'Roboto', sans-serif;
+		text-align:justify;
+		font-size:12px;
+		line-height: 1.5;
+		letter-spacing: 1.5px; 
+		margin-top:10px;}
+	
+	
+	
+	.first-first-container{
+		margin-top:20px;
+		margin-right:50px;
+		margin-left:50px	
 	}
- }
+	
+	/******Skills************/
+	}
+	
+	#allSkills{
+		font-size:12px
+	}
+
+	#frontEnd{
+		text-align:center ; 
+		margin-bottom: 5px ;
+		margin-top: 40px ;
+		font-size: 30px;
+	 }	
+
+	 /*********Education*************/
+	 h2{
+		 font-size: 15px;
+	 }
+	 
+	/*********FOoter****/
+	 #footer{
+		text-align:center;
+		margin-top:100px;
+		margin-bottom:50px;
+		font-family: 'Roboto', sans-serif ;
+		font-size:15px;
+		font-weight:bold;
+		
+	 }
+	/*********FOoter****/
+	footer{
+		display:block ;
+		position:absolute ;
+		left:0 ;
+		right: 0 ;
+		background-color: orange;
+		width:100% ;
+		text-align: center;
+		padding:10px ;
+		margin-top:100px;
+		font-family: 'Roboto', sans-serif ;
+		font-size:15px;
+		font-weight:bold;
+	 }
+	
+	 #fb, #github, #ig, #twitter {
+		padding-top:20px ; 
+		width:10%
+	 }
+	
+	 .footer{
+		color:black;
+		margin-top:20px; }
+
+	
+ 
 
 
-}
+
+
+
